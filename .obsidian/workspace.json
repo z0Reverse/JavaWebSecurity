@@ -1,0 +1,200 @@
+{
+  "main": {
+    "id": "709d4e84b4f46ce5",
+    "type": "split",
+    "children": [
+      {
+        "id": "278e75281960f176",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8720c325bbde4984",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新标签页"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "37d6b9594f3fa9fa",
+    "type": "split",
+    "children": [
+      {
+        "id": "562aa29d1a4dabb5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "91ee1834f87c45e1",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "文件列表"
+            }
+          },
+          {
+            "id": "a20671bc8c1e6bc1",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "搜索"
+            }
+          },
+          {
+            "id": "4d69c2dc80b8e499",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "书签"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "26f494842cad2816",
+    "type": "split",
+    "children": [
+      {
+        "id": "55d7dccfc3f20e25",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "5e28bade86cd0feb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "反向链接"
+            }
+          },
+          {
+            "id": "fdd6402cbec45af0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "出链"
+            }
+          },
+          {
+            "id": "49a28e39bc2efa87",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "标签"
+            }
+          },
+          {
+            "id": "2620ba05861256dd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "大纲"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:打开快速切换": false,
+      "graph:查看关系图谱": false,
+      "canvas:新建白板": false,
+      "daily-notes:打开/创建今天的日记": false,
+      "templates:插入模板": false,
+      "command-palette:打开命令面板": false
+    }
+  },
+  "active": "91ee1834f87c45e1",
+  "lastOpenFiles": [
+    "db.properties",
+    "未命名",
+    "基础知识/XSS.md",
+    "基础知识/SQL.md",
+    "基础知识",
+    "OFCMS/zpicture/Pasted image 20250422224958.png",
+    "OFCMS/zpicture/Pasted image 20250422224806.png",
+    "OFCMS/zpicture/Pasted image 20250422223623.png",
+    "OFCMS/zpicture/Pasted image 20250422221552.png",
+    "OFCMS/zpicture/Pasted image 20250422221540.png",
+    "OFCMS/zpicture/Pasted image 20250422220542.png",
+    "OFCMS/zpicture/Pasted image 20250422220503.png",
+    "OFCMS/zpicture/Pasted image 20250422220454.png",
+    "OFCMS/zpicture/Pasted image 20250422220345.png",
+    "OFCMS/zpicture/Pasted image 20250421230114.png",
+    "OFCMS/zpicture",
+    "OFCMS/9.总结.md",
+    "OFCMS/8.XXE.md",
+    "OFCMS/7.ssti模板注入.md",
+    "OFCMS/6.sql注入.md",
+    "OFCMS/5.文件上传.md",
+    "OFCMS/4.存储型XSS.md",
+    "OFCMS/3.审计-抓包.md",
+    "OFCMS/2.中间件框架.md",
+    "OFCMS/1.环境搭建.md",
+    "OFCMS",
+    "javaweb项目配置/tomact安装.md",
+    "javaweb项目配置/smarttomcat.md",
+    "javaweb项目配置/Problem.md",
+    "javaweb项目配置/Mysql.md",
+    "javaweb项目配置",
+    "crmeb",
+    "admintwo"
+  ]
+}
