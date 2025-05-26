@@ -169,6 +169,27 @@ ${}`：是字符串替换，MyBatis 会将 `${}` 直接替换为传入的值�
 ```
 恶意输入：如果 `keyword` 参数传入 `' OR 1=1 --`，会返回所有产品记录。
 
+还有一种是通配符被预先定义好，而不是在xml中配置
+	不安全的
+```java
+String keyword = "test' OR '1'='1";
+String likeValue = "%" + keyword + "%"; 
+
+Map<String, Object> params = new HashMap<>(); 
+params.put("likeValue", likeValue); // 
+
+Mapper XML 
+<select id="searchUsers" resultType="User"> 
+SELECT * FROM users WHERE username LIKE #{likeValue} 
+</select>
+```
+安全的
+```java
+<select id="searchUsers" resultType="User"> 
+SELECT * FROM users WHERE username LIKE CONCAT('%', #{value}, '%') 
+</select>
+```
+
 ### in 参数：
 如果 `in` 子句中的参数是由用户输入动态生成且未进行安全处理，可能导致 SQL 注入。
 ```xml
