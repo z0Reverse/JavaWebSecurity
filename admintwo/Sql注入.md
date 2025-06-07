@@ -1,4 +1,4 @@
-
+/resource_detail?id=
 # UserDao的insertuserpay方法
 疑似存在sql注入风险
 ![[Pasted image 20250527043446.png]]
